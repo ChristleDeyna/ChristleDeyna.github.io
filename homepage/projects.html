@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #f1caa9;
+            color: #4b3c2c;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        nav {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-family: 'Arial', sans-serif;
+            color: #a54229;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            border: none;
+            border-radius: 10px;
+            transition: transform 0.2s;
+            background-color: #fffaf0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.486);
+            width: 100%;
+            height: 105%;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgb(0, 0, 0);
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+            color: #a54229;
+            text-align: center;
+        }
+
+        .card-text {
+            font-size: 0.9rem;
+            color: #a0522d;
+            text-align: justify;
+        }
+
+        .btn-primary {
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.361);
+            background-color: #cc452d;
+            border: none;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        .btn-primary:hover {
+            background-color: #ff4500;
+        }
+
+        .container {
+            padding: 20px 50px;
+            margin: auto;
+        }
+
+        p {
+            margin: 0px;
+        }
+
+        footer {
+            background-color: #cc452d;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: auto;
+            /* Push footer to the bottom */
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        footer a:hover {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="projects" class="container">
+        <h2 class="text-center mb-4">MOBILE APPLICATIONS DEVELOPMENT PROJECTS</h2>
+        <div class="row justify-content-center">
+            <!-- Project 1 -->
+            <div class="col-md-6 col-lg-3 mb-4 py-4">
+                <div class="card">
+                    <img src="mayon.jpg" class="card-img-top" alt="Project 1 Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Best in Bohol</h5>
+                        <p class="card-text p-3">A curated collection of Bicol’s must-visit spots, from the iconic Mayon
+                            Volcano to the whale shark encounters in Donsol, offering travelers an unforgettable blend
+                            of natural beauty, adventure, and culture.</p>
+                        <div class="mt-auto text-center">
+                            <a href="project1.html" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="col-md-6 col-lg-3 mb-4 py-4">
+                <div class="card">
+                    <img src="gender.jpg" class="card-img-top" alt="Project 2 Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Gender Predictor App</h5>
+                        <p class="card-text p-3">Enter a name to predict its gender using the Genderize API. The app
+                            shows the predicted gender, probability, and data count for the name, providing a quick and
+                            fun way to explore gender predictions.</p>
+                        <div class="mt-auto text-center">
+                            <a href="api.html" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="col-md-6 col-lg-3 mb-4 py-4">
+                <div class="card">
+                    <img src="bg.jpg" class="card-img-top" alt="Project 3 Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text p-3">A brief description of your third project goes here.</p>
+                        <div class="mt-auto text-center">
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 4 -->
+            <div class="col-md-6 col-lg-3 mb-4 py-4">
+                <div class="card">
+                    <img src="bg.jpg" class="card-img-top" alt="Project 4 Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 4</h5>
+                        <p class="card-text p-3">A brief description of your fourth project goes here.</p>
+                        <div class="mt-auto text-center">
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My Projects. All Rights Reserved. | <a href="#">Privacy Policy</a></p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
